@@ -2,7 +2,7 @@ public class ChallegeTwo {
     public static void main(String[] args) {
         ChallegeTwo challegeTwo = new ChallegeTwo();
 
-        int[] arr = {1, 2};
+        int[] arr = {1, 1};
         System.out.println(challegeTwo.arrSummation(arr));
     }
 
