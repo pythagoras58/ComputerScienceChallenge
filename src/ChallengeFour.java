@@ -7,6 +7,20 @@ public class ChallengeFour {
      */
 
     public static void main(String[] args) {
+        ChallengeFour c4 = new ChallengeFour();
 
+        int testCase = 1000;
+        System.out.println("Reversed valued of " + testCase + " is :" + c4.f(testCase));
+    }
+
+    int f(int n){
+        int reversal = 0;
+        while (n != 0){
+            int remainder = n % 10;
+            reversal = reversal * 10 + remainder;
+            n = n /10;
+        }
+
+        return reversal;
     }
 }
