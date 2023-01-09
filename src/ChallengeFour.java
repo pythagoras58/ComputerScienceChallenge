@@ -9,7 +9,7 @@ public class ChallengeFour {
     public static void main(String[] args) {
         ChallengeFour c4 = new ChallengeFour();
 
-        int testCase = 1000;
+        int testCase = 1234; // 1234 , 1000,
         System.out.println("Reversed valued of " + testCase + " is :" + c4.f(testCase));
     }
 
